@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZca{}\PYGZca{}}\PYG{n}{I}\PYG{o}{\PYGZca{}\PYGZca{}}\PYG{n}{Ivoid}\PYG{+w}{ }\PYG{n}{masseschritt}\PYG{p}{(}\PYG{k}{struct}\PYG{+w}{ }\PYG{n+nc}{rakete}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{rocket}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{delta\PYGZus{}m}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{o}{\PYGZca{}\PYGZca{}}\PYG{n}{I}\PYG{o}{\PYGZca{}\PYGZca{}}\PYG{n}{I}\PYG{o}{\PYGZca{}\PYGZca{}}\PYG{n}{Irocket}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{v}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{rocket}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{vTank}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{delta\PYGZus{}m}\PYG{o}{/}\PYG{p}{(}\PYG{n}{rocket}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{m}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{rocket}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{mTank}\PYG{p}{);}
+\PYG{o}{\PYGZca{}\PYGZca{}}\PYG{n}{I}\PYG{o}{\PYGZca{}\PYGZca{}}\PYG{n}{I}\PYG{o}{\PYGZca{}\PYGZca{}}\PYG{n}{Irocket}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{mTank}\PYG{+w}{ }\PYG{o}{\PYGZhy{}=}\PYG{+w}{ }\PYG{n}{delta\PYGZus{}m}\PYG{p}{;}
+\PYG{o}{\PYGZca{}\PYGZca{}}\PYG{n}{I}\PYG{o}{\PYGZca{}\PYGZca{}}\PYG{n}{I}\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

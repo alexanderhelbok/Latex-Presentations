@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{struct}\PYG{+w}{ }\PYG{n+nc}{person}\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{k+kt}{char}\PYG{+w}{ }\PYG{n}{name}\PYG{p}{[}\PYG{l+m+mi}{50}\PYG{p}{];}
+\PYG{+w}{	}\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{age}\PYG{p}{;}
+\PYG{+w}{	}\PYG{k+kt}{float}\PYG{+w}{ }\PYG{n}{height}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{n}{Alex}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Anna}\PYG{p}{;}\PYG{+w}{ }
+\end{Verbatim}

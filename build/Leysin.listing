@@ -1,0 +1,2 @@
+Gibt es einen Zusammenhang zwischen Symmetrie und Erhaltungsgrößen?\\ \end {myr} \end {beamer@frameslide}\ifbeamer@twoscreenstext \beamer@dosecondscreennow {{Nöthers Theorem} \begin {myr} Gibt es einen Zusammenhang zwischen Symmetrie und Erhaltungsgrößen?\\ \end {myr} }\fi \ifbeamer@anotherslide \advance \beamer@slideinframe by 1\relax \relax \expandafter \iterate \fi \let \iterate \relax \beamer@writeslidentry \beamer@reseteecodes 
+\end{document}

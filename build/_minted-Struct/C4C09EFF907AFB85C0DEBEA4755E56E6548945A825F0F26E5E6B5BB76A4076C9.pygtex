@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{while}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{rocket}\PYG{p}{.}\PYG{n}{mTank}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{n}{masseschritt}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{rocket}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{delta}\PYG{p}{);}
+\PYG{+w}{	}\PYG{n}{zeitschritt}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{rocket}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{delta}\PYG{o}{/}\PYG{n}{rocket}\PYG{p}{.}\PYG{n}{dmTank}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

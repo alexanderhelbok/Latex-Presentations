@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{zeitschritt}\PYG{p}{(}\PYG{k}{struct}\PYG{+w}{ }\PYG{n+nc}{rakete}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{rocket}\PYG{p}{,}\PYG{+w}{ }\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{delta\PYGZus{}t}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{	}\PYG{n}{rocket}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{s}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{rocket}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{v}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{n}{delta\PYGZus{}t}\PYG{p}{;}
+\PYG{+w}{	}\PYG{n}{rocket}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{t}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{n}{delta\PYGZus{}t}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

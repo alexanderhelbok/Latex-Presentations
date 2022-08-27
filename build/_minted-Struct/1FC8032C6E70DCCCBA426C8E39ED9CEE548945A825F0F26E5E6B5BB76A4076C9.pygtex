@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Struct declaration}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{aging}\PYG{p}{(}\PYG{k}{struct}\PYG{+w}{ }\PYG{n+nc}{person}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{p1}\PYG{p}{);}
+
+\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n+nf}{main}\PYG{p}{()\PYGZob{}}
+\PYG{+w}{	}\PYG{k}{struct}\PYG{+w}{ }\PYG{n+nc}{person}\PYG{+w}{ }\PYG{n}{Alex}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}.}\PYG{n}{age}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{19}\PYG{p}{,}\PYG{+w}{ }\PYG{p}{.}\PYG{n}{height}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{1.7}\PYG{p}{\PYGZcb{};}
+\PYG{+w}{	}\PYG{n}{aging}\PYG{p}{(}\PYG{o}{\PYGZam{}}\PYG{n}{Alex}\PYG{p}{);}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kt}{void}\PYG{+w}{ }\PYG{n+nf}{aging}\PYG{p}{(}\PYG{k}{struct}\PYG{+w}{ }\PYG{n+nc}{person}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{p1}\PYG{p}{)\PYGZob{}}
+\PYG{+w}{	}\PYG{n}{p1}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{n}{age}\PYG{+w}{ }\PYG{o}{+=}\PYG{+w}{ }\PYG{l+m+mi}{50}\PYG{p}{;}
+\PYG{+w}{	}\PYG{p}{(}\PYG{o}{*}\PYG{n}{p1}\PYG{p}{).}\PYG{n}{height}\PYG{+w}{ }\PYG{o}{\PYGZhy{}=}\PYG{+w}{ }\PYG{l+m+mf}{0.03}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
