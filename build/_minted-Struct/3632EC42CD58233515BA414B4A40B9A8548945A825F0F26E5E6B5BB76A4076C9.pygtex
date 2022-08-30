@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{struct}\PYG{+w}{ }\PYG{n+nc}{rakete}\PYG{+w}{ }\PYG{n}{rocket}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{prototyp}\PYG{p}{;}
-\PYG{k+kt}{double}\PYG{+w}{ }\PYG{n}{delta}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{1e\PYGZhy{}5}\PYG{p}{;}
-\end{Verbatim}

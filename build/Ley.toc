@@ -1,5 +1,0 @@
-\babel@toc {ngerman}{}\relax 
-\beamer@sectionintoc {1}{Introduction to the zeta function}{3}{0}{1}
-\beamer@sectionintoc {2}{Riemann conjecture}{29}{0}{2}
-\beamer@sectionintoc {3}{Zeta function and primes}{42}{0}{3}
-\beamer@sectionintoc {4}{Formal definitions}{44}{0}{4}

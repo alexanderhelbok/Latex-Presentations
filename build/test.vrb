@@ -1,7 +1,0 @@
-\frametitle{Motivation}
-\begin{enumerate}
-		\item Datentypen mischen
-		\item Strukturierter als Arrays
-		\item Benennung der Felder macht Abfrage einfacher
-		\item Verschachteln
-	\end{enumerate}

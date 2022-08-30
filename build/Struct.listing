@@ -1,1 +1,0 @@
-			printf("Endgeschwindigkeit %f erreicht nach: %f\n", rocket.v, rocket.t);
