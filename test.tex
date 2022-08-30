@@ -1,0 +1,157 @@
+\documentclass[10pt]{beamer}
+%\usepackage[utf8x]{inputenc}
+\usepackage{hyperref}
+%\usepackage{fontspec}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+\usepackage[english,ngerman]{babel}
+
+% ------------------------------------------------------------------------------
+% Use the beautiful metropolis beamer template
+% ------------------------------------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome5}
+\usepackage{FiraSans} 
+\mode<presentation>
+{
+	\usetheme[progressbar=foot,numbering=fraction,background=light]{metropolis} 
+	\usecolortheme{default} % or try albatross, beaver, crane, ...
+	\usefonttheme{default}  % or try serif, structurebold, ...
+	\setbeamertemplate{navigation symbols}{}
+	\setbeamertemplate{caption}[numbered]
+	%\setbeamertemplate{frame footer}{My custom footer}
+} 
+
+% ------------------------------------------------------------------------------
+% 
+% ------------------------------------------------------------------------------
+\usepackage[outputdir=build]{minted}
+\usemintedstyle{colorful}
+
+
+% ------------------------------------------------------------------------------
+% tcolorbox / tcblisting
+% ------------------------------------------------------------------------------
+\usepackage{xcolor}
+\definecolor{codecolor}{HTML}{FFC300} 
+
+\usepackage{tcolorbox}
+\tcbuselibrary{most,listingsutf8}
+
+\tcbset{tcbox width=auto,left=1mm,top=1mm,bottom=1mm,
+	right=1mm,boxsep=1mm,middle=1pt}
+
+\newtcblisting{myr}{colback=codecolor!5,colframe=codecolor!80!black,
+	left=5mm,enhanced, listing only, listing options={
+		language=C}, fonttitle=\bfseries}
+
+
+% ------------------------------------------------------------------------------
+% Listings
+% ------------------------------------------------------------------------------
+\definecolor{mygreen}{HTML}{37980D}
+\definecolor{myblue}{HTML}{0D089F}
+\definecolor{myred}{HTML}{98290D}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\usepackage{listings}
+\usepackage{lstautogobble}
+
+\lstdefinestyle{mystyle}{
+%	backgroundcolor=\color{backcolour},   
+%	commentstyle=\color{codegreen},
+%	keywordstyle=\color{violet},
+%	numberstyle=\tiny\color{codegray},
+%	stringstyle=\color{blue},
+%	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=4
+}
+
+\lstset{autogobble=true, style=mystyle}
+
+% ------------------------------------------------------------------------------
+% The Document
+% ------------------------------------------------------------------------------
+\title{Structs}
+\author{Alexander Helbok, Raphael Riener, Anna Bozukov, Lorenz Ritsch}
+\date{\today}
+
+\begin{document}
+	\maketitle
+
+%	\section{Tcblisting}
+	
+	\begin{frame}[fragile]{Definition}
+\begin{myr}
+struct person{
+	char name[50];
+	int age;
+	float height;
+}; \end{myr}\\
+\begin{myr}
+int main(){
+	struct person Alex, Anna;
+	Alex.age = 19;
+	Anna.height = 1.85;
+	// Ausgabe
+	printf("Alter = %d\n", Alex.age);
+} \end{myr}
+	\end{frame}
+	
+%	\section{lstlisting}
+	
+	\begin{frame}[fragile]{Nested Structs}
+\begin{myr}
+struct person{
+	char name[50];
+	int age;
+	float height;
+}; 
+
+struct Family{
+	struct person;
+	int number_Sisters;
+	int number_Brothers;
+}myFamily;
+
+int main(){
+	struct person Alex = {.age = 19, .height = 1.7};
+	myFamily = {Alex, .number_Sister = 2};
+	printf("Height = %f\n", Family.Alex.height);
+}\end{myr}
+	\end{frame}
+	
+%	\begin{frame}[fragile]{Using Code Listings II}
+%		This time with caption but without code highlighting.
+%		\begin{lstlisting}[language=c,caption={Hello World! in C}]
+%			int main()
+%			{
+%				printf("Hello World!");
+%				return 0;
+%			}
+%		\end{lstlisting}
+%	\end{frame}
+
+\begin{frame}[fragile]{Motivation}
+	\begin{enumerate}
+		\item Datentypen mischen
+		\item Strukturierter als Arrays
+		\item Benennung der Felder macht Abfrage einfacher
+		\item Verschachteln 
+	\end{enumerate}
+\end{frame}
+	
+\end{document}
